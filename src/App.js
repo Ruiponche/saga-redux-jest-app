@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { createStore } from 'redux'
+import { getMovie as getMovieAction } from './redux/actions/moviesActions';
+import { connect } from 'react-redux'
 
 class App extends Component {
   render() {
+    const { getMovie } = this.props
     return (
       <div className="App">
         <header className="App-header">
@@ -20,9 +24,14 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <button onClick={this.props.getMovie}>GET MOVIE!!</button>
       </div>
     );
   }
 }
 
-export default App;
+const mapDispatchToProps = {
+  getMovie: getMovieAction
+}
+
+export default connect(null, mapDispatchToProps)(App);
