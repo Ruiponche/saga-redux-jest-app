@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <p>
+    Calculate your savings
+  </p>,
+  <div
+    className="MuiFormGroup-root-1 MuiFormGroup-row-2"
+    style={
+      Object {
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "padding": "20px",
+        "width": "60%",
+      }
+    }
+  >
+    <label
+      className="MuiFormControlLabel-root-3 control-show-monthly-expenses"
+    >
+      <span
+        className="MuiSwitch-root-9"
+      >
+        <span
+          className="MuiButtonBase-root-28 MuiIconButton-root-22 MuiPrivateSwitchBase-root-18 MuiSwitch-switchBase-12 MuiSwitch-colorPrimary-14"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label-27"
+          >
+            <span
+              className="MuiSwitch-icon-10"
+            />
+            <input
+              checked={false}
+              className="MuiPrivateSwitchBase-input-21"
+              onChange={[Function]}
+              type="checkbox"
+              value="checkedA"
+            />
+          </span>
+          <span
+            className="MuiTouchRipple-root-66"
+          />
+        </span>
+        <span
+          className="MuiSwitch-bar-17"
+        />
+      </span>
+      <span
+        className="MuiTypography-root-31 MuiTypography-body1-40 MuiFormControlLabel-label-8"
+      >
+        Monthly expenses
+      </span>
+    </label>
+    <label
+      className="MuiFormControlLabel-root-3 control-show-annual-inflation"
+    >
+      <span
+        className="MuiSwitch-root-9"
+      >
+        <span
+          className="MuiButtonBase-root-28 MuiIconButton-root-22 MuiPrivateSwitchBase-root-18 MuiSwitch-switchBase-12 MuiSwitch-colorPrimary-14"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label-27"
+          >
+            <span
+              className="MuiSwitch-icon-10"
+            />
+            <input
+              checked={false}
+              className="MuiPrivateSwitchBase-input-21"
+              onChange={[Function]}
+              type="checkbox"
+              value="checkedB"
+            />
+          </span>
+          <span
+            className="MuiTouchRipple-root-66"
+          />
+        </span>
+        <span
+          className="MuiSwitch-bar-17"
+        />
+      </span>
+      <span
+        className="MuiTypography-root-31 MuiTypography-body1-40 MuiFormControlLabel-label-8"
+      >
+        Annual Inflation
+      </span>
+    </label>
+  </div>,
+  <div
+    className="savings-app-container"
+  >
+    <p
+      className="MuiTypography-root-31 MuiTypography-body1-40 MuiTypography-alignRight-55 base-salary-label"
+    >
+      Base salary
+    </p>
+    <div
+      className="normal frame"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <input
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onMouseUp={[Function]}
+        placeholder="Base Salary"
+        type="text"
+        value=""
+      />
+    </div>
+    <p
+      className="MuiTypography-root-31 MuiTypography-body1-40 MuiTypography-alignRight-55 annual-interest-rate-label"
+    >
+      Annual Interest Rate
+    </p>
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      placeholder="Annual Interest Rate"
+      type="text"
+      value=""
+    />
+    <p
+      className="MuiTypography-root-31 MuiTypography-body1-40 MuiTypography-alignRight-55 number-years-label"
+    >
+      # years
+    </p>
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      placeholder="years"
+      type="text"
+      value=""
+    />
+    <p
+      className="MuiTypography-root-31 MuiTypography-body1-40 MuiTypography-alignRight-55"
+    >
+      Annual savings
+    </p>
+    <input
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseUp={[Function]}
+      type="text"
+      value=""
+    />
+  </div>,
+]
+`;

@@ -1,23 +1,23 @@
 const initialState = {
     searchbarValue: "",
-    movie: ""
+    holidays: ""
 }
 
-const movieReducers=(state=initialState, action)=>{
+const holidaysReducers=(state=initialState, action)=>{
     switch(action.type){
         case "SET_SEARCHBAR_VALUE":
             return{
                 ...state,
                 searchbarValue: action.value
             }
-        case "SET_MOVIE":
+        case "SET_HOLIDAYS":
             return{
                 ...state,
-                movie: action.value
+                holidays: action.payload
             }
         default:
             return state
     }
 }
 
-export default movieReducers
+export default holidaysReducers

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputFrame/> should match shallowed component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InputFrame />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": undefined,
+      "className": "normal frame",
+      "onMouseEnter": [Function],
+      "onMouseLeave": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": undefined,
+        "className": "normal frame",
+        "onMouseEnter": [Function],
+        "onMouseLeave": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`input frame class changes when hovered 1`] = `
+<div
+  className="normal frame"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div>
+    Sample text
+  </div>
+</div>
+`;
+
+exports[`input frame class changes when hovered 2`] = `
+<div
+  className="highlight frame"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div>
+    Sample text
+  </div>
+</div>
+`;
+
+exports[`input frame class changes when hovered 3`] = `
+<div
+  className="normal frame"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <div>
+    Sample text
+  </div>
+</div>
+`;

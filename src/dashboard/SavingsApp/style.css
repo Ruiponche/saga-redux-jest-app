@@ -1,0 +1,15 @@
+.savings-app-container {
+  width: 60%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'label value';
+}
+
+.savings-app-label {
+  grid-area: label;
+  align-self: right;
+}
